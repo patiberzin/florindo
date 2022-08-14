@@ -1,0 +1,177 @@
+/*Geral*/
+body, h1, h2, h3, p, ul, li, a {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/*Menu-Nav*/
+.container-nav {
+    background: #CD48A0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.titulo a {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+    font-size: 2em;
+}
+
+.links-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.links-nav li a {
+    color: white;
+    padding: 5px;
+    margin-right: 32px;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em; 
+}
+
+.links-nav li a:hover {
+    color: rgb(19, 255, 255);
+}
+
+/*Intro*/
+
+.container-intro {
+    background: #FFCAED;
+    padding: 60px;
+}
+
+.intro {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.paragrafo-intro {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 150px 0 0 52px;
+    position: relative;
+}
+
+.btn-intro {
+    text-transform: uppercase;
+    color: white;
+    font-size: 0.5em;
+    background: #CD48A0;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.btn-intro:hover {
+    background: #74004C;
+    color: white;
+}
+
+.pink {
+    color: #8E1264;
+}
+
+/*Datas Especiais*/
+.datas {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.datas h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #8E1264;
+    font-size: 5em;
+}
+
+.datas h3 {
+    font-family: "Raleway", sans-serif;
+    color: #74004C;
+    font-size: 4em;
+}
+
+.datas p {
+    font-size: 1.5em;
+    margin-top: 60px;
+}
+
+/*Datas Especiais - Galeria 1*/
+
+.pai-e-filha {
+    position: absolute;
+}
+
+.container-galeria {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1000;
+    position: relative;
+    margin-top: 650px;
+}
+
+.paragrafo-flores {
+    display: flex;
+    justify-content: space-between;
+    background-color: #74004C;
+    padding: 20px;
+    color: white;
+}
+
+.paragrafo-flores-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #CD48A0;
+    padding: 20px;
+    color: white;
+}
+
+.btn-comprar, .btn-comprar-2 {
+    text-transform: uppercase;
+    color: #74004C;
+    font-weight: bold;
+    font-size: 1em;
+    background: #FFCAED;
+    border-radius: 5px;
+    padding: 16px;
+    
+}
+
+.btn-comprar:hover {
+    background: #CD48A0;
+    color: white;
+}
+
+.btn-comprar-2:hover {
+    background: #74004C;
+    color: white;
+}
+
+/*Datas Especiais - Galeria 2*/
+
+.galeria-flores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #CD48A0;
+    padding: 60px;
+    margin-top: 120px;
+    color: white;
+    font-weight: bold;
+
+}

@@ -1,0 +1,88 @@
+/*Geral*/
+body, h1, h2, h3, p, ul, li, a {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/*Menu-Nav*/
+.container-nav {
+    background: #CD48A0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.titulo a {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+    font-size: 2em;
+}
+
+.links-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.links-nav li a {
+    color: white;
+    padding: 5px;
+    margin-right: 32px;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em; 
+}
+
+.links-nav li a:hover {
+    color: rgb(19, 255, 255);
+}
+
+/*Intro*/
+
+.container-buques {
+    display: flex;
+    background: #FFCAED;
+    margin: 0 auto;
+    position: relative;
+}
+
+.buques {
+    padding: 150px;
+}
+
+.buques h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #8E1264;
+    font-size: 5em;
+}
+
+.buques p {
+    font-size: 2em;
+}
+
+.flores-frescas {
+    position: absolute;
+    z-index: 2000;
+    margin-left: 900px;
+}
+
+.arranjos-geral {
+   margin-top: 300px;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #CD48A0;
+    padding: 60px;
+    margin-top: 120px;
+    color: white;
+    font-weight: bold;
+
+}
